@@ -1,0 +1,108 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1%;
+    background-color: rgb(220, 244, 254);
+    font-family: sans-serif;
+}
+
+header {
+    color: white;
+    background-color: rgb(64, 64, 243);
+}
+
+#inicio {
+    padding: 1%;
+}
+
+#inicio p {
+    font-size: smaller;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0;
+}
+
+#principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 60%;
+    padding: 2%;
+    gap: 12px;
+    background-color: white;
+    color: rgb(0, 0, 91);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.string {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.string input,
+.string select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#texto textarea {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: smaller;
+    border: 0;
+    padding: 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #001b56;
+}
+
+footer {
+    margin-top: 1%;
+    color: white;
+    background-color: rgb(64, 64, 243);
+    padding: 1%;
+    text-align: center;
+    font-size: small;
+}
